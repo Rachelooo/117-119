@@ -1,0 +1,26 @@
+body{
+    background-color: azure;
+}
+
+h1{
+    background: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+p{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25
+}
+canvas{
+    border:3px;
+    border-radius: 10px;
+    border-style: dotted;
+    border-color: cornflowerblue;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin-top:10px;
+}
