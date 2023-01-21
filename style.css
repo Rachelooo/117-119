@@ -22,5 +22,11 @@ canvas{
     animation-name: example;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    margin-top:10px;
+}
+@keyframes example{
+from{box-shadow: 2px 2px 45px rgb(93, 133, 117);}
+to{box-shadow: 2px 2px 45px rgb(129, 167, 182);}
+}
+#button1{
+    float:right;
 }
